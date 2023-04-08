@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" type="image/x-icon" href="./source/scss/img/about/03.png">
+	<link rel="stylesheet" href="source/scss/style.css">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<div class="NothingAlert Hidden">
+		<span>This button does nothing yet</span>
+		<div class="NothingAlert__btn">
+			<span class="ToggleHidden">OK</span>
+		</div>
+	</div>
+	<div class="head">
+		<div class="head__body">
+			<div class="head__logo"><img src="./source/scss/img/Logo.svg" alt="binary logo"></div>
+			<div>
+				<div class="head__title">
+				<h1>Clear, smart, attractive design</h1>
+				</div>
+				<div class="head__subtitle">for your app, logo, website</div>
+				<hr class="head__hr">
+			</div>
+			<div>
+				<div class="head__btn"><a class="btn GoToAbout"><span>READ MORE</span></a></div>
+				<div class="head__arrow"><a class="GoToAbout"><img src="./source/scss/img/icons/Arrow-down.svg" alt="arrow down"></a></div>
+			</div>
+		</div>
+	</div>
+	<header class="header" id="myHeader">
+		<nav>
+			<ul>
+				<li><a class="GoToHome">HOME</a></li>
+				<li><a class="GoToAbout">ABOUT US</a></li>
+				<li><a class="GoToPortfolio">PORTFOLIO</a></li>
+				<li><a class="GoToContact">CONTACT</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div class="about" id="about">
+		<div class="about__body">
+			<div class="about__title title">ABOUT</div>
+			<div class="about__hr hr"></div>
+			<div class="about__subtitle">We specialize in contemporary, functional, and stunning websites with design that really brings that "WOW" factor.<br>
+				In our design process, we make sure to stay one step ahead of the latest trends,<br>
+				never forgetting to abide by key web standards.</div>
+			<div class="about__row">
+				<div class="about__column">
+					<div class="item-about__icon"><img src="./source/scss/img/about/about_1.png" alt=""></div>
+					<div class="item-about__title">WEB</div>
+					<div class="item-about__text">We tend to deliver unique and 
+						functional design, through 
+						innovation and creativity.</div>
+				</div>
+				<div class="about__column">
+					<div class="item-about__icon"><img src="./source/scss/img/about/about_2.png" alt=""></div>
+					<div class="item-about__title">iOS AND ANDROID</div>
+					<div class="item-about__text">We seek to bring new businesses and 
+						customers closer together through valuable 
+						insights and proper targeting.</div>
+				</div>
+				<div class="about__column">
+					<div class="item-about__icon"><img src="./source/scss/img/about/about_3.png" alt=""></div>
+					<div class="item-about__title">MARKETING</div>
+					<div class="item-about__text">We’ll help you establish the right goals 
+						and build the right paths. Success depends 
+						on setting the right intention.</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="portfolio" id="portfolio">
+		<div class="portfolio__body">
+			<div class="portfolio__title title">portfolio</div>
+			<div class="portfolio__hr hr"></div>
+			<div class="portfolio__categories">
+				<ul>
+					<li><button class="nothingBTN"><span>ALL</span></button></li>
+					<li><button class="nothingBTN"><span>WEB</span></button></li>
+					<li><button class="nothingBTN"><span>APPS</span></button></li>
+					<li><button class="nothingBTN"><span>OTHER</span></button></li>
+				</ul>
+			</div>
+			<div class="portfolio__photos-block">
+				<div class="portfolio__photo-block">
+					<img class="nothingBTN" src="/source/scss/img/projects/project1.jpg" alt="project1">
+				</div>
+				<div class="portfolio__photo-block">
+					<img class="nothingBTN" src="/source/scss/img/projects/project2.jpg" alt="project2">
+				</div>
+				<div class="portfolio__photo-block">
+					<img class="nothingBTN" src="/source/scss/img/projects/project3.jpg" alt="project3">
+				</div>
+				<div class="portfolio__photo-block">
+					<img class="nothingBTN" src="/source/scss/img/projects/project4.jpg" alt="project4">
+				</div>
+			</div>
+			<!-- <div class="head__btn"><a class="btn GoToAbout"><span>READ MORE</span></a></div> -->
+			<div class="portfolio__btn "><a class="GoToAbout"><span>READ MORE</span></a></div>
+		</div>
+	</div>
+	<div class="partners">
+		<div class="partners__body">
+			<div class="partners__title">Our partners</div>
+			<div class="partner__flex"><div class="partners__icons">
+				<img src="./source/scss/img/partners/Trident.png" alt="Trident" class="partners__img">
+				<img src="./source/scss/img/partners/Archiq.png" alt="Archiq" class="partners__img">
+				<img src="./source/scss/img/partners/Thomsoon.png" alt="Thomsoon" class="partners__img">
+				<img src="./source/scss/img/partners/Alex.png" alt="Alex" class="partners__img">
+			</div></div>
+		</div>
+	</div>
+	<div class="contact" id="contact">
+		<div class="contact__body">
+			<div class="contact__title title">Contact</div>
+			<div class="contact__hr hr"></div>
+			<div class="contact__flex">
+				<div class="contact__flex-form">
+					<form>
+						<div class="contact__inputs-flex">
+							<div class="contact__inputs">
+								<label for="name">YOUR NAME</label><br>
+								<input class="input" type="text" id="name" name="name">
+							</div>
+							<div class="contact__inputs">
+								<label for="email">YOUR E-MAIL</label><br>
+								<input class="input" type="text" id="email" name="email">
+							</div>
+						</div>
+						<div><label for="teaxtarea">MESSAGE</label></div><br>
+						<textarea name="teaxtarea" id="text" cols="60" rows="5"></textarea>
+						<input class="contact__btn nothingBTN" type="submit" value="SEND">
+					</form>
+				</div>
+				<div class="contact__flex-text">
+					<p class="contact__p">
+						Have an idea for a project? Just looking to 
+explore and see the possibilities?
+<br>I'm here to help.
+
+					</p>
+					<h2 class="contact__h2">Postma Elena</h2>
+					<div class="contact__icons-flex">
+						<div class="contact__icon">
+							<a class="nothingBTN"><img src="./source/scss/img/icons/Facebook.svg" alt="Facebook link"></a>
+						</div>
+						<div class="contact__icon">
+							<a class="nothingBTN"><img src="./source/scss/img/icons/linkedin.svg" alt="LinkedIn link"></a>
+						</div>
+					</div>
+					<div class="contact__e-mail">e-mail: <span class="contact__h2">postma.elena@gmail.com</span></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer class="footer">
+		<div class="footer__body">
+			<div class="footer__logo"><img src="./source/scss/img/Logo.svg" alt="binary logo"></div>
+			<div class="footer__row">
+				<ul>
+					<li><a class="GoToHome">Home</a></li>
+					<li><a class="nothingBTN">Facebook</a></li>
+					<li><a class="nothingBTN">LinkedIn</a></li>
+					<li><a class="GoToContact">Contact</a></li>
+				</ul>
+			</div>
+			<div class="footer__text">© 2015. All Rights Reserved<br>HTML, CSS, JS MADE BY ZORK</div>
+		</div>
+	</footer>
+<script src="script.js"></script>
+</body>
+</html>
